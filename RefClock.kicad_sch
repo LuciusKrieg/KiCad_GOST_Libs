@@ -1,0 +1,4599 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "35a76f24-e6d8-41b4-b4ea-3ca33e11625c")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Capacitor_standart_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 6.35 10.16 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "~"
+				(at 6.35 7.62 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 9.144 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Конденсатор  {Конденсаторы}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2.4892 2.4892)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "Value"
+				(at 5.842 3.81 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "20%"
+				(at 5.842 0.508 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "MaxVoltage" "VMax"
+				(at 5.588 -2.794 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "TempFactor" "X"
+				(at 5.588 -5.842 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Capacitor_standart_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 4.0132 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitor_standart_1_1_1"
+				(polyline
+					(pts
+						(xy -4.0132 0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.0132 -0.8128) (xy 0 -0.8128)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.8128) (xy 4.0132 -0.8128)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.2926)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.2672)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Capacitor_standart_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 6.35 10.16 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "~"
+				(at 6.35 7.62 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 9.144 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Конденсатор  {Конденсаторы}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2.4892 2.4892)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "Value"
+				(at 5.842 3.81 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "20%"
+				(at 5.842 0.508 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "MaxVoltage" "VMax"
+				(at 5.588 -2.794 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "TempFactor" "X"
+				(at 5.588 -5.842 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Capacitor_standart_2_0_1"
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 4.0132 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitor_standart_2_1_1"
+				(polyline
+					(pts
+						(xy -4.0132 0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.0132 -0.8128) (xy 0 -0.8128)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.8128) (xy 4.0132 -0.8128)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.2926)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.2672)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GOST_symbols:Capacitor_standart"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 6.35 10.16 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "~"
+				(at 6.35 7.62 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 9.144 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Конденсатор  {Конденсаторы}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2.4892 2.4892)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "Value"
+				(at 5.842 3.81 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "20%"
+				(at 5.842 0.508 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "MaxVoltage" "VMax"
+				(at 5.588 -2.794 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "TempFactor" "X"
+				(at 5.588 -5.842 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Capacitor_standart_0_1"
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 4.0132 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitor_standart_1_1"
+				(polyline
+					(pts
+						(xy -4.0132 0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.0132 -0.8128) (xy 0 -0.8128)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.8128) (xy 4.0132 -0.8128)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.2926)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.2672)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GOST_symbols:Connector_RF_Out_2pin"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "XW"
+				(at -0.635 4.445 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+						(italic yes)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 2.413 4.699 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+						(italic yes)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 15.748 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 17.272 -20.828 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Разъём {Разъёмы}"
+				(at 9.144 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" "Name"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 2.4892 2.4892)
+						(italic yes)
+					)
+				)
+			)
+			(property "ki_keywords" "sma"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Connector_RF_Out_2pin_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 5.715 0)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 0) (xy 7.62 1.905)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 0) (xy 7.62 -1.905)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GOST_symbols:GNDA"
+			(power)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -6.985 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0 -5.08) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 1.27 270)
+					(length 0)
+					(hide yes)
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GOST_symbols:PowerIn"
+			(power)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 1.778 2.54 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PowerIn"
+				(at 5.334 -6.604 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+						(italic yes)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "+V"
+				(at 0 -3.556 0)
+				(effects
+					(font
+						(size 2.4892 2.4892)
+						(italic yes)
+					)
+				)
+			)
+			(property "ki_keywords" "Входное напряжение"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PowerIn_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PowerIn_1_1"
+				(pin power_in line
+					(at 0 0 180)
+					(length 0)
+					(hide yes)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GOST_symbols:Resistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -4.445 3.81 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -10.16 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Резистор {Резисторы}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2.4892 2.4892)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistence" "Ohm"
+				(at -2.54 -3.81 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.4892 2.4892)
+						(italic yes)
+					)
+				)
+			)
+			(property "MaxPower" "1/W"
+				(at -2.54 -6.985 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.4892 2.4892)
+						(italic yes)
+					)
+				)
+			)
+			(property "Tolerance" "+/-"
+				(at -2.54 -10.16 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.4892 2.4892)
+						(italic yes)
+					)
+				)
+			)
+			(symbol "Resistor_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.9812) (xy -5.08 -1.9812)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.9812) (xy 5.08 1.9812)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.9812) (xy 5.08 -1.9812)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_1_1"
+				(polyline
+					(pts
+						(xy 5.08 1.9812) (xy 5.08 -1.9812)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GOST_symbols:Resistor_Array"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at -6.35 10.795 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at -3.175 11.43 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.5 2.5)
+						(italic yes)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -8.255 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 22.86 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Резисторная сборка  {Резисторные сборки}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2.4892 2.4892)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistence" "Value"
+				(at -4.445 -16.51 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.4892 2.4892)
+						(italic yes)
+					)
+				)
+			)
+			(property "Tolerance" "+/-"
+				(at -5.08 -20.32 0)
+				(effects
+					(font
+						(face "GOST type A")
+						(size 2.4892 2.4892)
+						(italic yes)
+					)
+				)
+			)
+			(symbol "Resistor_Array_0_1"
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor_Array_1_1"
+				(rectangle
+					(start -7.62 8.89)
+					(end 7.62 -13.97)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -10.16) (xy -5.08 -10.16)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 7.0612) (xy -5.08 3.0988)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 7.0612) (xy 5.08 7.0612)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.0988) (xy 5.08 3.0988)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.9812) (xy -5.08 -1.9812)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.9812) (xy 5.08 1.9812)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.9812) (xy 5.08 -1.9812)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.0988) (xy -5.08 -7.0612)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.0988) (xy 5.08 -3.0988)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -7.0612) (xy 5.08 -7.0612)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -8.1788) (xy -5.08 -12.1412)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -8.1788) (xy 5.08 -8.1788)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -12.1412) (xy 5.08 -12.1412)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.0612) (xy 5.08 3.0988)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.9812) (xy 5.08 -1.9812)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.0988) (xy 5.08 -7.0612)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -8.1788) (xy 5.08 -12.1412)
+					)
+					(stroke
+						(width 0.5)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.5 1.5)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GOST_symbolsAnalogIC:LMK61PD0A2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "G"
+				(at -17.78 6.35 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LMK61PD0A2"
+				(at -17.78 2.54 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "MALT_Fpr_MicroChips:QFM-8-SIA"
+				(at 0 -34.29 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "/kicad/DataSheets/AnalogIC/lmk61pd0a2.pdf"
+				(at 0 -34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -16.51 2.54 0)
+				(effects
+					(font
+						(size 2.5 2.5)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Type" "Генератор {Генераторы}"
+				(at 0 -34.29 0)
+				(effects
+					(font
+						(size 2.4892 2.4892)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LMK61PD0A2_1_1"
+				(rectangle
+					(start -17.78 0)
+					(end -7.62 -15.24)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -17.78 -15.24)
+					(end -7.62 -30.48)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 0)
+					(end 7.62 -30.48)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 0)
+					(end 17.78 -15.24)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 -15.24)
+					(end 17.78 -30.48)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -22.86 -5.08 0)
+					(length 5.08)
+					(name "OE"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -10.16 0)
+					(length 5.08)
+					(name "OS"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -20.32 0)
+					(length 5.08)
+					(name "FS1"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -25.4 0)
+					(length 5.08)
+					(name "FS0"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "OUTP"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "OUTN"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -20.32 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -25.4 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 2.4892 2.4892)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 110.49 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b566fa5-30b9-4203-83ab-f8ef0e3ffac4")
+	)
+	(junction
+		(at 356.87 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4192c764-aab3-4cae-a054-426eada99eef")
+	)
+	(junction
+		(at 148.59 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54fc87b8-f2f2-466e-8d49-94a8305e9cbf")
+	)
+	(junction
+		(at 17.78 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7adfacab-4ccd-46bf-b171-e880369670c5")
+	)
+	(junction
+		(at 356.87 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdb311d0-4d59-4a0e-b278-bbd9366910d0")
+	)
+	(junction
+		(at 148.59 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf1d789f-8d0a-419a-b59d-d739073e330a")
+	)
+	(junction
+		(at 17.78 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f19d8ab0-b89b-4940-b9b7-7ba15243ef3c")
+	)
+	(junction
+		(at 110.49 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faabb32b-9a71-473c-8398-69af279d2f1e")
+	)
+	(wire
+		(pts
+			(xy 148.59 87.63) (xy 186.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05dee3dd-1d53-4a26-97fc-b42fad2daa56")
+	)
+	(wire
+		(pts
+			(xy 186.69 87.63) (xy 186.69 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07af1d45-a256-4e2a-91ff-441a8bdd9a25")
+	)
+	(wire
+		(pts
+			(xy 17.78 72.39) (xy 24.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae86ff6-3a21-44cb-94db-5633b1712972")
+	)
+	(wire
+		(pts
+			(xy 356.87 72.39) (xy 356.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfcaad4-d801-4ce1-a22b-3bccb0f8db92")
+	)
+	(wire
+		(pts
+			(xy 208.28 25.4) (xy 266.7 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0e78aa-e271-4952-997c-18039b13f424")
+	)
+	(wire
+		(pts
+			(xy 218.44 72.39) (xy 325.12 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8e7832-4997-4ca3-84c5-597555c47733")
+	)
+	(wire
+		(pts
+			(xy 100.33 77.47) (xy 213.36 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2923a94f-73aa-45b5-b50e-388ea7e6dccf")
+	)
+	(wire
+		(pts
+			(xy 218.44 72.39) (xy 213.36 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f36b0e-2d07-4c02-a3d2-708d10bd0c40")
+	)
+	(wire
+		(pts
+			(xy 52.07 82.55) (xy 52.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2daf3786-8578-45a9-bd01-b44e9085eb3e")
+	)
+	(wire
+		(pts
+			(xy 48.26 59.69) (xy 17.78 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38591789-1ac7-4212-8b12-f7267ebd5045")
+	)
+	(wire
+		(pts
+			(xy 335.28 72.39) (xy 356.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4683c374-0f4c-4dac-a113-d51908c9dcc3")
+	)
+	(wire
+		(pts
+			(xy 148.59 105.41) (xy 148.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef1a3ab-24a2-4056-97b2-f090dfe2aa7b")
+	)
+	(wire
+		(pts
+			(xy 148.59 113.03) (xy 110.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e25b568-411d-48b6-9836-3e617eb7679b")
+	)
+	(wire
+		(pts
+			(xy 17.78 53.34) (xy 17.78 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70aa5bc6-eaa3-44a5-bf97-ec30b685c260")
+	)
+	(wire
+		(pts
+			(xy 17.78 92.71) (xy 17.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723c8348-f0cd-4b9c-bd88-4360880a3348")
+	)
+	(wire
+		(pts
+			(xy 49.53 72.39) (xy 54.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82403781-a70f-4a3a-986f-0989b88f8817")
+	)
+	(wire
+		(pts
+			(xy 356.87 111.76) (xy 356.87 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826f3bcc-fe36-4045-b538-1a8fe00103e3")
+	)
+	(wire
+		(pts
+			(xy 186.69 113.03) (xy 148.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864b83ce-786e-4f83-8c40-ef8c9b75c4e2")
+	)
+	(wire
+		(pts
+			(xy 17.78 59.69) (xy 17.78 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b3442d-a00a-4eb5-b1b9-ae03b5a5b5cc")
+	)
+	(wire
+		(pts
+			(xy 356.87 123.19) (xy 368.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eaf19ef-3604-4155-8579-5ac068e08d67")
+	)
+	(wire
+		(pts
+			(xy 208.28 48.26) (xy 266.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f46d418-06d5-4aac-ad40-0dbf9aae278f")
+	)
+	(wire
+		(pts
+			(xy 213.36 72.39) (xy 218.44 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f6e41c-338b-4a7e-8f29-beec55280a12")
+	)
+	(wire
+		(pts
+			(xy 100.33 113.03) (xy 110.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9442ab2c-976d-4bcd-84ed-3994890c1615")
+	)
+	(wire
+		(pts
+			(xy 256.54 123.19) (xy 325.12 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956bd781-eaa1-4b6e-aac1-7c2a21760783")
+	)
+	(wire
+		(pts
+			(xy 148.59 82.55) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34df0a5-69d1-4788-9c88-459070b6c51e")
+	)
+	(wire
+		(pts
+			(xy 100.33 72.39) (xy 213.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6779ad4-ca99-4054-8274-9b5dda83e780")
+	)
+	(wire
+		(pts
+			(xy 110.49 87.63) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cabb01-89ac-4bdb-b288-6e335abbd125")
+	)
+	(wire
+		(pts
+			(xy 49.53 82.55) (xy 52.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa40345-ba11-4387-840e-8a695ddebfde")
+	)
+	(wire
+		(pts
+			(xy 256.54 77.47) (xy 256.54 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe26df1-c6cb-4e51-9a34-5e68b17a71f2")
+	)
+	(wire
+		(pts
+			(xy 335.28 123.19) (xy 356.87 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af164f28-3ed3-40b4-8b19-d38b5e2535da")
+	)
+	(wire
+		(pts
+			(xy 24.13 82.55) (xy 17.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3263241-79d8-4c8b-9038-0feab0639adf")
+	)
+	(wire
+		(pts
+			(xy 48.26 41.91) (xy 48.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b764e19d-52d7-41ac-83a6-2ed3df090faf")
+	)
+	(wire
+		(pts
+			(xy 110.49 113.03) (xy 110.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b796aea1-bc68-474d-9f8b-2397ca2fc904")
+	)
+	(wire
+		(pts
+			(xy 356.87 72.39) (xy 368.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c29560-900e-4ddf-bf31-a5b4ed888801")
+	)
+	(wire
+		(pts
+			(xy 52.07 87.63) (xy 54.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c683492b-d4c7-44ad-b031-acfe906be31b")
+	)
+	(wire
+		(pts
+			(xy 17.78 82.55) (xy 17.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd98c634-0f9b-44e1-a6eb-0322f2b8f13b")
+	)
+	(wire
+		(pts
+			(xy 100.33 92.71) (xy 100.33 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5de95e7-d1f1-451f-a456-2039ab0062a0")
+	)
+	(wire
+		(pts
+			(xy 49.53 92.71) (xy 54.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a6e41b-c12f-4262-831d-3a0849b0ec5f")
+	)
+	(wire
+		(pts
+			(xy 100.33 87.63) (xy 110.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90b47fe-8c60-4452-a19b-052c5aee10cb")
+	)
+	(wire
+		(pts
+			(xy 148.59 87.63) (xy 148.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de08b2f5-5fa5-417a-9e95-b7dd60bb0177")
+	)
+	(wire
+		(pts
+			(xy 186.69 105.41) (xy 186.69 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea459157-addc-49f0-a84b-8a57aa84d690")
+	)
+	(wire
+		(pts
+			(xy 218.44 77.47) (xy 256.54 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e5e56e-ffdb-4b14-bcc5-2e7f4767684d")
+	)
+	(wire
+		(pts
+			(xy 49.53 87.63) (xy 49.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88d43fb-1dd9-4a34-aa3f-d2ca128e5aff")
+	)
+	(wire
+		(pts
+			(xy 110.49 87.63) (xy 110.49 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f910bb0a-0d6e-41ae-9c43-fac75446f47e")
+	)
+	(wire
+		(pts
+			(xy 17.78 87.63) (xy 24.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb44d07-6aca-4244-95dd-cfb1efcff825")
+	)
+	(label "REF_P"
+		(at 184.15 72.39 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "62631dc6-4f27-4b22-8db5-53f65e12989d")
+	)
+	(label "EX_CLKIN_P"
+		(at 220.98 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c96bd98-459d-4b0a-aad1-6555ebb9dc91")
+	)
+	(label "3V3"
+		(at 170.18 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc645840-5270-4ce9-9531-b4fd7ded58fa")
+	)
+	(label "REF_N"
+		(at 184.15 77.47 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7483474-1669-4bda-9d66-a865285b619f")
+	)
+	(label "EX_CLKIN_N"
+		(at 222.25 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4f8314e-a2f5-4d91-ae30-3b1ee746dd2b")
+	)
+	(hierarchical_label "EX_CLKIN_P "
+		(shape output)
+		(at 266.7 25.4 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "7727951e-9be2-4be6-870c-c692e1f1f874")
+	)
+	(hierarchical_label "REF_CLKIN_P "
+		(shape output)
+		(at 368.3 72.39 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "8ef3241d-4e71-48b1-9532-b023d260a4dd")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 48.26 41.91 90)
+		(effects
+			(font
+				(size 2.48 2.48)
+			)
+			(justify left)
+		)
+		(uuid "9e0caea0-b787-4589-90ed-d98be1e2dbe2")
+	)
+	(hierarchical_label "EX_CLKIN_N "
+		(shape output)
+		(at 266.7 48.26 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "a071e4a6-fb03-41b2-b735-c04c87018f29")
+	)
+	(hierarchical_label "REF_CLKIN_N "
+		(shape output)
+		(at 368.3 123.19 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "aaeb040b-b0dc-4bfd-a25c-868c151c9a34")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 294.64 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82c0138d-427b-4ff0-98c7-54ed4fc00a37")
+		(property "Netclass" "RF"
+			(at 295.3385 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 279.4 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1ae2a72-19ca-4fb1-b454-484ac87ac81c")
+		(property "Netclass" "RF"
+			(at 280.0985 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:GNDA")
+		(at 148.59 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f714948-8616-4409-bd69-d068d34bfbca")
+		(property "Reference" "#PWR017"
+			(at 148.59 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 148.59 121.92 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c142cc3a-7492-4f00-893b-a72da5ebdd23")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:Connector_RF_Out_2pin")
+		(at 203.2 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3559db05-5797-4c15-af8b-a68603c3c223")
+		(property "Reference" "XH1"
+			(at 194.31 24.13 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA_HOR"
+			(at 194.31 27.94 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
+			(at 187.452 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.928 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Разъём {Разъёмы}"
+			(at 194.056 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "REFCLK_IN"
+			(at 194.31 31.75 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" ""
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CoreType" ""
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MaxCurrentSat" ""
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MaxCurrentTemp" ""
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MaxPower" ""
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MaxVoltage" ""
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TempFactor" ""
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee1cb18b-a87f-4e44-aafd-7ec95a80fc37")
+		)
+		(pin "1"
+			(uuid "12130378-68d4-4425-8079-3d42bda338cc")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "XH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:Capacitor_standart")
+		(at 148.59 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fe5f17e-fac6-47e2-937d-2364d232c3cb")
+		(property "Reference" "C9"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GRM033R60J105MEA"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 149.5552 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.734 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "1u"
+			(at 153.67 99.06 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 153.67 102.87 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MaxVoltage" "6V3"
+			(at 153.67 106.68 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "TempFactor" "X5R"
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Type" "Конденсатор  {Конденсаторы}"
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b3b3110-4a2f-4973-a046-429c9a870467")
+		)
+		(pin "1"
+			(uuid "8d080969-72ca-455f-8750-71c888d7095a")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:Capacitor_standart")
+		(at 186.69 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bb49f3c-e481-4e3c-a581-b922b3e1e6fa")
+		(property "Reference" "C8"
+			(at 191.77 91.44 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CL05A106MQ5NUNC"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 187.6552 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.834 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "10u"
+			(at 191.77 99.06 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MaxVoltage" "6V3"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "TempFactor" "X5R"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Type" "Конденсатор  {Конденсаторы}"
+			(at 186.69 100.33 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 186.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "857fd997-7614-4f5a-81aa-c0654d269455")
+		)
+		(pin "1"
+			(uuid "08db514e-2111-40f6-930e-9cc8db0c4414")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:GNDA")
+		(at 17.78 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5492994e-61cb-4bbd-b69d-800547cc7542")
+		(property "Reference" "#PWR022"
+			(at 17.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 17.78 101.6 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fa9aa34-6a50-4a72-ab46-9a99b9186e1f")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:Resistor")
+		(at 356.87 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5efa60d6-a9fe-4374-95da-32d3eb6ff56a")
+		(property "Reference" "R36"
+			(at 360.68 93.98 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RC0402FR-07100RL"
+			(at 360.68 97.79 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 365.125 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 356.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Резистор {Резисторы}"
+			(at 356.87 101.6 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistence" "100"
+			(at 360.68 101.6 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.4892 2.4892)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "MaxPower" "1/16W (62m)"
+			(at 360.68 109.22 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.4892 2.4892)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 360.68 105.41 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.4892 2.4892)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Resistance" ""
+			(at 356.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e47a9efe-3f57-4a2c-9521-02d06ac73dc8")
+		)
+		(pin "2"
+			(uuid "d3f67192-2e4b-40e4-b4d3-c7c8f1a507de")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:GNDA")
+		(at 203.2 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64dc6aa8-bc68-46b4-a889-cd9fd31c6044")
+		(property "Reference" "#PWR019"
+			(at 203.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 203.2 62.23 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2b88749-3dca-4549-ae58-cf0ea1ced4d7")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:Resistor_Array")
+		(at 36.83 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "683cbad2-7b8a-45e1-9a67-1f8e050b2787")
+		(property "Reference" "RN2"
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Value" "YC124-JR-0710KL"
+			(at 36.83 66.04 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
+			(at 45.085 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistence" "10k"
+			(at 35.56 93.98 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.4892 2.4892)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.4892 2.4892)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Type" "Резисторная сборка  {Резисторные сборки}"
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "03904295-945c-49cc-80e4-2b2b99846c70")
+		)
+		(pin "6"
+			(uuid "c22b7c56-4261-49e9-a59e-28cc050c429d")
+		)
+		(pin "7"
+			(uuid "00856ec8-b721-4d0a-8809-6c86ee4e64a6")
+		)
+		(pin "5"
+			(uuid "ac8e8aa8-f74b-40af-98f8-664b281687b5")
+		)
+		(pin "1"
+			(uuid "f6935600-7bf0-4c6f-bb9a-bc45b07023b7")
+		)
+		(pin "2"
+			(uuid "47c39e69-d747-42d7-9582-5e7d104df400")
+		)
+		(pin "4"
+			(uuid "3b18aeac-1077-4b0d-b729-fc917e70233c")
+		)
+		(pin "3"
+			(uuid "f5656c3c-ba5f-4d3d-9cd7-bab7f5065960")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:GNDA")
+		(at 203.2 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "752233c2-f685-481d-9c4f-9fbee85ba1c6")
+		(property "Reference" "#PWR013"
+			(at 203.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 203.2 39.37 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c142cede-98a0-4b88-8eec-f408caafe607")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:Connector_RF_Out_2pin")
+		(at 203.2 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cf0c219-9532-42a9-8bb3-d0bafe0f954c")
+		(property "Reference" "XH2"
+			(at 194.31 46.99 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA_HOR"
+			(at 194.31 50.8 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
+			(at 187.452 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.928 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Разъём {Разъёмы}"
+			(at 194.056 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "REFCLK_IN"
+			(at 194.31 54.61 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Capacitance" ""
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color" ""
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CoreType" ""
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MaxCurrentSat" ""
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MaxCurrentTemp" ""
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MaxPower" ""
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MaxVoltage" ""
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TempFactor" ""
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fbf005a-d60e-4eee-89e7-3f54e07cc9e2")
+		)
+		(pin "1"
+			(uuid "629d482d-7748-41b2-9261-1eea524615cf")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "XH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbolsAnalogIC:LMK61PD0A2")
+		(at 77.47 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81611b3a-c2b5-402e-861f-5a6d7e7a47aa")
+		(property "Reference" "G1"
+			(at 59.69 60.96 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LMK61PD0A2"
+			(at 59.69 64.77 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFM:QFM-8-SIA"
+			(at 77.47 101.6 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "/kicad/DataSheets/AnalogIC/lmk61pd0a2.pdf"
+			(at 77.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Type" "Генератор {Генераторы}"
+			(at 77.47 101.6 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "53b7da7b-af15-4290-ab83-adecd09283c7")
+		)
+		(pin "4"
+			(uuid "7467cf7a-5900-41eb-ab13-7c7a0c3ee241")
+		)
+		(pin "6"
+			(uuid "9cfbb80c-7e0e-46d8-8b17-9875af5b19ad")
+		)
+		(pin "7"
+			(uuid "3392d254-6c07-4c0b-b3a7-47b4554f5825")
+		)
+		(pin "5"
+			(uuid "5ec8b690-7978-459e-b740-3c8f54669a92")
+		)
+		(pin "2"
+			(uuid "57125ff4-2a46-4dce-9eed-a9641d8a8c24")
+		)
+		(pin "1"
+			(uuid "b9de19ba-db7f-408d-80fe-f6d7034e6c93")
+		)
+		(pin "8"
+			(uuid "4f0cfb74-9a91-45f0-8532-ab643b4fb0fb")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:Capacitor_standart")
+		(at 110.49 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "829535ae-325b-4f64-9c6a-6e46511b76fd")
+		(property "Reference" "C6"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GJM0335C1E220GB"
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 109.5248 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.346 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Конденсатор  {Конденсаторы}"
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "22p"
+			(at 115.57 99.06 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "2%"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "MaxVoltage" "25V"
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "TempFactor" "C0G"
+			(at 115.57 110.49 0)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Resistance" ""
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80007d4a-14a2-411c-af7f-5059f7468300")
+		)
+		(pin "2"
+			(uuid "d39d973e-c8df-4c6b-ba8f-09bdf085e993")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:PowerIn")
+		(at 17.78 53.34 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "862323af-09ed-415d-a9bd-e012211f7808")
+		(property "Reference" "#PWR021"
+			(at 15.24 55.118 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_3V3"
+			(at 20.32 50.8 90)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3V3"
+			(at 20.32 54.61 90)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "904680b4-7210-4ea5-aaa2-d87a9469c82c")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Capacitor_standart_2")
+		(lib_id "GOST_symbols:Capacitor_standart")
+		(at 330.2 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96cf9f47-faad-433e-9896-f3e87e82bf74")
+		(property "Reference" "C5"
+			(at 324.104 104.394 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GRM033R71E103KE"
+			(at 321.564 107.95 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 334.01 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.088 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Конденсатор  {Конденсаторы}"
+			(at 330.2 123.19 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "0.01u"
+			(at 327.152 111.252 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 326.898 114.554 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MaxVoltage" "25V"
+			(at 321.818 118.11 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "TempFactor" "X7R"
+			(at 321.818 121.158 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Resistance" ""
+			(at 330.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3fb2890-ac38-4204-ba54-8dec3cf6f635")
+		)
+		(pin "2"
+			(uuid "e6da7d88-8c4e-4705-a871-2e97a10e5950")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Capacitor_standart_1")
+		(lib_id "GOST_symbols:Capacitor_standart")
+		(at 330.2 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa3689d4-91f8-42ca-82ce-5ab4aa564c0a")
+		(property "Reference" "C7"
+			(at 327.66 69.85 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GRM033R71E103KE"
+			(at 332.74 69.85 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 334.01 71.4248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.088 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Конденсатор  {Конденсаторы}"
+			(at 330.2 72.39 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "0.01u"
+			(at 321.31 74.93 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 327.66 74.93 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MaxVoltage" "25V"
+			(at 332.74 74.93 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "TempFactor" "X7R"
+			(at 340.36 74.93 90)
+			(effects
+				(font
+					(face "GOST type A")
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Resistance" ""
+			(at 330.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5bfe02d-30e8-4905-94d1-5359d9e24391")
+		)
+		(pin "2"
+			(uuid "edbc34a4-adec-4557-a184-b387b570c241")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GOST_symbols:PowerIn")
+		(at 148.59 82.55 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3e3f5bf-4efe-4676-958e-7103992843b4")
+		(property "Reference" "#PWR016"
+			(at 146.05 84.328 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_3V3"
+			(at 151.13 80.01 90)
+			(effects
+				(font
+					(size 2.5 2.5)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3V3"
+			(at 151.892 83.312 90)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "1f7fe50b-9ba8-4640-be30-b57e912f6578")
+		)
+		(instances
+			(project "clock_board_alpha_v2_0"
+				(path "/09105fea-2455-4f13-9a22-b1582a455bae/7abb0b1c-b45a-4c87-9631-8ee6f9d24bf0"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

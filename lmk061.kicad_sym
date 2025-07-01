@@ -1,0 +1,256 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "LMK061"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LMK061"
+			(at 17.78 -2.794 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LMK061_1_1"
+			(rectangle
+				(start 0 0)
+				(end 10.16 -15.24)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 -15.24)
+				(end 10.16 -30.48)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 0)
+				(end 25.4 -30.48)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 25.4 0)
+				(end 35.56 -15.24)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 25.4 -15.24)
+				(end 35.56 -30.48)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -5.08 -5.08 0)
+				(length 5.08)
+				(name "OE"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -10.16 0)
+				(length 5.08)
+				(name "OS"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -20.32 0)
+				(length 5.08)
+				(name "FS1"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -25.4 0)
+				(length 5.08)
+				(name "FS0"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 40.64 -5.08 180)
+				(length 5.08)
+				(name "OUTP"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 40.64 -10.16 180)
+				(length 5.08)
+				(name "OUTN"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 -20.32 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 -25.4 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.4892 2.4892)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

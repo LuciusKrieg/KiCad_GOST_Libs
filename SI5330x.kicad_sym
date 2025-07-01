@@ -1,0 +1,1827 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "SI53301-B-GM"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SI53301"
+			(at 30.0691 -4.2815 0)
+			(effects
+				(font
+					(size 2.48 2.48)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at -1.4269 0.0365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.4269 0.0365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -1.4269 0.0365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -1.4269 0.0365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SI53301-B-GM_0_1"
+			(rectangle
+				(start -0.1569 0.0365)
+				(end 20.1631 -132.0435)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.1569 -106.6435) (xy 20.1631 -106.6435)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.1569 -121.8835) (xy 20.1631 -121.8835)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 20.1631 0.0365)
+				(end 37.9431 -132.0435)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 37.9431 0.0365)
+				(end 58.2631 -132.0435)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 37.9431 -15.2035) (xy 58.2631 -15.2035)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 37.9431 -30.4435) (xy 58.2631 -30.4435)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 37.9431 -45.6835) (xy 58.2631 -45.6835)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 37.9431 -60.9235) (xy 58.2631 -60.9235)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 37.9431 -76.1635) (xy 58.2631 -76.1635)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 37.9431 -91.4035) (xy 58.2631 -91.4035)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SI53301-B-GM_1_1"
+			(polyline
+				(pts
+					(xy -0.1569 -45.6835) (xy 20.1631 -45.6835)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.1569 -91.4035) (xy 20.1631 -91.4035)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.1631 -15.2035) (xy -0.1569 -15.2035)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.1631 -30.4435) (xy -0.1569 -30.4435)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.1631 -60.9235) (xy -0.1569 -60.9235)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.1631 -76.1635) (xy -0.1569 -76.1635)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 37.9431 -106.6435) (xy 58.2631 -106.6435)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin tri_state line
+				(at -3.9669 -5.0435 0)
+				(length 3.81)
+				(name "DIVA"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -3.9669 -10.1235 0)
+				(length 3.81)
+				(name "DIVB"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.9669 -20.2835 0)
+				(length 3.81)
+				(name "CLK1"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -3.9669 -25.3635 0)
+				(length 3.81)
+				(name "CLK1b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.9669 -35.5235 0)
+				(length 3.81)
+				(name "CLK0"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -3.9669 -40.6035 0)
+				(length 3.81)
+				(name "CLK0b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -3.9669 -50.7635 0)
+				(length 3.81)
+				(name "LOS0"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -3.9669 -55.8435 0)
+				(length 3.81)
+				(name "LOS1"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -3.9669 -66.0035 0)
+				(length 3.81)
+				(name "SFOUTB[1]"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -3.9669 -71.0835 0)
+				(length 3.81)
+				(name "SFOUTB[0]"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -3.9669 -81.2435 0)
+				(length 3.81)
+				(name "SFOUTA[1]"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -3.9669 -86.3235 0)
+				(length 3.81)
+				(name "SFOUTA[0]"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.9669 -96.4835 0)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -3.9669 -101.5635 0)
+				(length 3.81)
+				(name "VREF"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -3.9669 -111.7235 0)
+				(length 3.81)
+				(name "VDDOA"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -3.9669 -116.8035 0)
+				(length 3.81)
+				(name "VDDOB"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.9669 -126.9635 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 62.0731 -5.0435 180)
+				(length 3.81)
+				(name "Q0"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 62.0731 -10.1235 180)
+				(length 3.81)
+				(name "Q0b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 62.0731 -20.2835 180)
+				(length 3.81)
+				(name "Q1"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 62.0731 -25.3635 180)
+				(length 3.81)
+				(name "Q1b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 62.0731 -35.5235 180)
+				(length 3.81)
+				(name "Q2"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 62.0731 -40.6035 180)
+				(length 3.81)
+				(name "Q2b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 62.0731 -50.7635 180)
+				(length 3.81)
+				(name "Q3"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 62.0731 -55.8435 180)
+				(length 3.81)
+				(name "Q3b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 62.0731 -66.0035 180)
+				(length 3.81)
+				(name "Q4"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 62.0731 -71.0835 180)
+				(length 3.81)
+				(name "Q4b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 62.0731 -81.2435 180)
+				(length 3.81)
+				(name "Q5"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 62.0731 -86.3235 180)
+				(length 3.81)
+				(name "Q5b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 62.0731 -99.0235 180)
+				(length 3.81)
+				(name "CLK_SEL"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 62.0731 -111.7235 180)
+				(length 3.81)
+				(name "OEB"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 62.0731 -116.8035 180)
+				(length 3.81)
+				(name "OEA"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SI53302-B-GM"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SI53302"
+			(at 30.734 -3.81 0)
+			(effects
+				(font
+					(size 2.48 2.48)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SI53302-B-GM_0_1"
+			(rectangle
+				(start 0 0)
+				(end 20.32 -167.64)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 20.32 0)
+				(end 40.64 -167.64)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 40.64 0)
+				(end 60.96 -167.64)
+				(stroke
+					(width 0.5)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SI53302-B-GM_1_1"
+			(polyline
+				(pts
+					(xy 0 -45.72) (xy 20.32 -45.72)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -91.44) (xy 20.32 -91.44)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -106.68) (xy 20.32 -106.68)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -137.16) (xy 20.32 -137.16) (xy 20.32 -152.4) (xy 0 -152.4)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.32 -15.24) (xy 0 -15.24)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.32 -30.48) (xy 0 -30.48)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.32 -60.96) (xy 0 -60.96)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.32 -76.2) (xy 0 -76.2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.32 -121.92) (xy 0 -121.92)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 60.96 -15.24) (xy 40.64 -15.24)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 60.96 -30.48) (xy 40.64 -30.48) (xy 40.64 -45.72) (xy 60.96 -45.72) (xy 60.96 -60.96) (xy 40.64 -60.96)
+					(xy 40.64 -76.2) (xy 60.96 -76.2) (xy 60.96 -91.44) (xy 40.64 -91.44) (xy 40.64 -106.68) (xy 60.96 -106.68)
+					(xy 60.96 -121.92) (xy 40.64 -121.92) (xy 40.64 -137.16) (xy 60.96 -137.16) (xy 60.96 -152.4) (xy 60.96 -152.4)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin tri_state line
+				(at -3.81 -5.08 0)
+				(length 3.81)
+				(name "DIVA"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -3.81 -10.16 0)
+				(length 3.81)
+				(name "DIVB"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -20.32 0)
+				(length 3.81)
+				(name "CLK1"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -3.81 -25.4 0)
+				(length 3.81)
+				(name "CLK1b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -35.56 0)
+				(length 3.81)
+				(name "CLK0"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -3.81 -40.64 0)
+				(length 3.81)
+				(name "CLK0b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -3.81 -50.8 0)
+				(length 3.81)
+				(name "LOS0"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -3.81 -55.88 0)
+				(length 3.81)
+				(name "LOS1"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -3.81 -66.04 0)
+				(length 3.81)
+				(name "SFOUTB[1]"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -3.81 -71.12 0)
+				(length 3.81)
+				(name "SFOUTB[0]"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -3.81 -81.28 0)
+				(length 3.81)
+				(name "SFOUTA[1]"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -3.81 -86.36 0)
+				(length 3.81)
+				(name "SFOUTA[0]"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -3.81 -96.52 0)
+				(length 3.81)
+				(name "NC"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -101.6 0)
+				(length 3.81)
+				(name "CLK_SEL"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -111.76 0)
+				(length 3.81)
+				(name "OEB"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -116.84 0)
+				(length 3.81)
+				(name "OEA"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -127 0)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -3.81 -132.08 0)
+				(length 3.81)
+				(name "VREF"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -142.24 0)
+				(length 3.81)
+				(name "VDDOA"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -147.32 0)
+				(length 3.81)
+				(name "VDDOB"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -157.48 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -162.56 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 64.77 -5.08 180)
+				(length 3.81)
+				(name "Q0"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 64.77 -10.16 180)
+				(length 3.81)
+				(name "Q0b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 64.77 -20.32 180)
+				(length 3.81)
+				(name "Q1"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 64.77 -25.4 180)
+				(length 3.81)
+				(name "Q1b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 64.77 -35.56 180)
+				(length 3.81)
+				(name "Q2"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 64.77 -40.64 180)
+				(length 3.81)
+				(name "Q2b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 64.77 -50.8 180)
+				(length 3.81)
+				(name "Q3"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 64.77 -55.88 180)
+				(length 3.81)
+				(name "Q3b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 64.77 -66.04 180)
+				(length 3.81)
+				(name "Q4"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 64.77 -71.12 180)
+				(length 3.81)
+				(name "Q4b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 64.77 -81.28 180)
+				(length 3.81)
+				(name "Q5"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 64.77 -86.36 180)
+				(length 3.81)
+				(name "Q5b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 64.77 -96.52 180)
+				(length 3.81)
+				(name "Q6"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 64.77 -101.6 180)
+				(length 3.81)
+				(name "Q6b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 64.77 -111.76 180)
+				(length 3.81)
+				(name "Q7"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 64.77 -116.84 180)
+				(length 3.81)
+				(name "Q7b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 64.77 -127 180)
+				(length 3.81)
+				(name "Q8"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 64.77 -132.08 180)
+				(length 3.81)
+				(name "Q8b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 64.77 -142.24 180)
+				(length 3.81)
+				(name "Q9"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 64.77 -147.32 180)
+				(length 3.81)
+				(name "Q9b"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 2.48 2.48)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SI53301")(type "KiCad")(uri "${KIPRJMOD}/SI53301.kicad_sym")(options "")(descr ""))
+  (lib (name "SI5330x")(type "KiCad")(uri "${KIPRJMOD}/SI5330x.kicad_sym")(options "")(descr ""))
+  (lib (name "lmk061")(type "KiCad")(uri "${KIPRJMOD}/lmk061.kicad_sym")(options "")(descr ""))
+)
